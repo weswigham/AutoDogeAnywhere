@@ -1,0 +1,1 @@
+Linkifies unlinked dogecoin addresses on any webpages you visit!

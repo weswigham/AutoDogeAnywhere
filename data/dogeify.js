@@ -42,8 +42,7 @@ function visitChildren(elem) {
     var match = re.exec(text);
     if (match) {
       var replacement = text.replace(re, '<a href=\'dogecoin:$1?label='+window.location.href+'\'>$1</a>');
-      var new_node = document.createElement('span');
-      new_node.innerHTML = replacement;
+      var new_node = document.createRange().createContextualFragment(replacement);
       parent.replaceChild(new_node, node);
     }
   }

@@ -1,9 +1,10 @@
 {
-  "name": "github",
-  "title": "GitHub",
+  "name": "auto-doge-anywhere",
+  "title": "AutoDogeAnywhere",
   "id": "jid1-Ooo3UcmEZcANUg",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "Linkifies un-linked dogecoin addresses across the web",
+  "author": "weswigham",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.1",
+  "github": "weswigham/AutoDogeAnywhere"
 }
