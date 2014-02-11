@@ -1,6 +1,4 @@
 
-alert('Running...');
-
 var re = /\b(D[A-Za-z0-9]{33})\b/;
 
 function getChildText(elem) {
@@ -43,12 +41,9 @@ function visitChildren(elem) {
     var parent = tobj.parent;
     var match = re.exec(text);
     if (match) {
-      alert('Match found: '+match[0])
       var replacement = text.replace(re, '<a href=\'dogecoin:$1?label='+window.location.href+'\'>$1</a>');
       var new_node = document.createElement('span');
       new_node.innerHTML = replacement;
-      alert(new_node);
-      alert(parent);
       parent.replaceChild(new_node, node);
     }
   }
