@@ -4,7 +4,7 @@
   "id": "jid1-Ooo3UcmEZcANUg",
   "description": "Linkifies un-linked dogecoin addresses across the web",
   "author": "weswigham",
-  "license": "MPL 2.0",
+  "license": "MIT",
   "version": "0.1",
   "github": "weswigham/AutoDogeAnywhere"
 }
